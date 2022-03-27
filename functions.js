@@ -1,4 +1,5 @@
 function autoScroll(id) {
+    toggleMenu();
     var element = document.getElementById(id);
     element.scrollIntoView({behavior: "auto", block: "center", inline: "nearest"});
 }
