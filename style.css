@@ -1,8 +1,6 @@
 html {
-    background: rgb(223,127,217);
-    background: linear-gradient(180deg, rgba(223,127,217,1) 10%, rgba(68,189,232,1) 90%);
+    background: rgba(68,189,232,1);
     overflow: auto;
-    user-select: none;
     scroll-behavior: smooth;
 }
 
@@ -22,6 +20,10 @@ html {
     height: 20vh;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transition-duration: 0.4s;
+}
+
+.facebook-logo {
+    width: 5vh;
 }
 
 .sa-logo {
@@ -56,6 +58,17 @@ html {
     overflow: hidden;
 }
 
+.navigation-help {
+    position: fixed;
+    width: 15vw;
+    top: 10vh;
+    left: 1vw;
+}
+
+.navigation-help-mobile {
+    display: none;
+}
+
 .links {
     position: fixed;
     width: fit-content;
@@ -72,11 +85,12 @@ html {
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: none;
-    opacity: 70%;
+    opacity: 90%;
 }
 
 .link {
     display: block;
+    color: black;
     background-color: #EEEEEE;
     padding: 1vh 3vw;
     opacity: 100%;
@@ -104,6 +118,7 @@ html {
     opacity: 90%;
     background: #FFFFFF;
     z-index: 90;
+    user-select: none;
 }
 
 .header {
@@ -139,6 +154,13 @@ html {
     5px -5px 10px rgb(102, 219, 255);
 }
 
+.artists-vendors {
+    display:inline-block;
+    padding: 2vh;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
 .general-info {
     font-family: Comfortaa;
     font-style: normal;
@@ -150,6 +172,7 @@ html {
 }
 
 body {
+    background: linear-gradient(180deg, rgba(223,127,217,1) 10%, rgba(68,189,232,1) 90%);
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 9vh;
@@ -166,6 +189,24 @@ body {
     .main-logo {
         width: 90%;
         transition-duration: 0.4s;
+    }
+
+    .navigation-help-mobile {
+        display: block;
+        position: fixed;
+        width: 30vw;
+        top: 10vh;
+        left: 1vw;
+    }
+
+    .navigation-help {
+        display: none;
+    }
+
+    .artists-vendors {
+        display: inline-block;
+        padding: 2vh;
+        margin: 0.5vh 20vw;
     }
 
     .sa-logo {
