@@ -1,9 +1,15 @@
 function toggleMenu() {
   let menu = document.getElementById("menu");
+  let logo = document.getElementById("menu-button");
+  let toggled_logo = document.getElementById("menu-button-toggled");
   if (menu.style.display === "block") {
     menu.style.display = "none";
+    logo.style.display = "block";
+    toggled_logo.style.display = "none";
   } else {
     menu.style.display = "block";
+    logo.style.display = "none";
+    toggled_logo.style.display = "block";
   }
 }
 

@@ -16,6 +16,19 @@ html {
     background-color: #ddd;
 }
 
+.sarpa-logo-toggled {
+    display: none;
+    padding: 1vh;
+    position: fixed;
+    height: 7vh;
+    left: 0px;
+    background-color: #000000;
+}
+
+.sarpa-logo-toggled:hover {
+    background-color: #1e1e1e;
+}
+
 .sarpa-logo-large {
     height: 20vh;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -249,5 +262,13 @@ body {
         overflow: hidden;
         background-color: #333;
         z-index: 100;
+    }
+
+    .sarpa-logo:hover {
+        background-color: transparent;
+    }
+
+    .sarpa-logo-toggled:hover {
+        background-color: #000000;
     }
 }
