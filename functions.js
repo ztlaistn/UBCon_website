@@ -15,7 +15,7 @@ function toggleMenu() {
 
 function togglePage(id) {
     toggleMenu();
-    let pages = ["home", "schedule", "artists-vendors", "about-us"]
+    let pages = ["home", "about-us"]
     for(let i=0; i<pages.length; i++){
         if(pages[i] != id){
             let page = document.getElementById(pages[i]);
@@ -28,7 +28,7 @@ function togglePage(id) {
 }
 
 function firstLoad(id) {
-    let pages = ["home", "schedule", "artists-vendors", "about-us"]
+    let pages = ["home", "about-us"]
     for(let i=0; i<pages.length; i++){
         if(pages[i] != id){
             let page = document.getElementById(pages[i]);
