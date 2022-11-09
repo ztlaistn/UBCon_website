@@ -1,5 +1,5 @@
 html {
-    background: rgba(68,189,232,1);
+    background: rgb(75, 75, 75);
     overflow: auto;
     scroll-behavior: smooth;
 }
@@ -22,15 +22,21 @@ html {
     position: fixed;
     height: 7vh;
     left: 0px;
-    background-color: #000000;
+    background-color: #d20000;
 }
 
 .sarpa-logo-toggled:hover {
-    background-color: #1e1e1e;
+    background-color: #ea0000;
 }
 
 .sarpa-logo-large {
     height: 20vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition-duration: 0.4s;
+}
+
+.sarpa-logo-main {
+    height: 30vh;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transition-duration: 0.4s;
 }
@@ -111,7 +117,7 @@ html {
 }
 
 .link:hover {
-    color: #FF4DFF;
+    color: #d20000;
     background-color: #ddd;
 }
 
@@ -145,6 +151,40 @@ html {
     transition-duration: 0.4s;
 }
 
+.alt-header {
+    text-decoration: none;
+    font-family: 'New Rocker', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6vh;
+    line-height: 100%;
+    color: #d20000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.4s;
+}
+
+.alt2-header {
+    font-family: 'New Rocker', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6vh;
+    line-height: 100%;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.4s;
+}
+
+.main-header {
+    font-family: 'New Rocker', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12vh;
+    line-height: 100%;
+    color: #d20000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition-duration: 0.4s;
+}
+
 .main-link {
     font-family: Quantico;
     font-style: normal;
@@ -152,19 +192,19 @@ html {
     font-size: 6vh;
     line-height: 75%;
     color: #FFFFFF;
-    text-shadow: 5px 5px 10px rgb(245, 138, 255),
-    -5px 5px 10px rgb(245, 138, 255),
-    -5px -5px 10px rgb(245, 138, 255),
-    5px -5px 10px rgb(245, 138, 255);
+    text-shadow: 5px 5px 10px rgb(234, 0, 0),
+    -5px 5px 10px rgb(210, 0, 0),
+    -5px -5px 10px rgb(252, 8, 8),
+    5px -5px 10px rgb(252, 8, 8);
     text-decoration: none;
     transition-duration: 0.4s;
 }
 
 .main-link:hover {
-    text-shadow: 5px 5px 10px rgb(102, 219, 255),
-    -5px 5px 10px rgb(102, 219, 255),
-    -5px -5px 10px rgb(102, 219, 255),
-    5px -5px 10px rgb(102, 219, 255);
+    text-shadow: 5px 5px 10px rgb(252, 8, 8),
+    -5px 5px 10px rgb(252, 8, 8),
+    -5px -5px 10px rgb(252, 8, 8),
+    5px -5px 10px rgb(252, 8, 8);
 }
 
 .artists-vendors {
@@ -175,7 +215,7 @@ html {
 }
 
 .general-info {
-    font-family: Comfortaa;
+    font-family: Quantico;
     font-style: normal;
     font-weight: bold;
     font-size: 3vh;
@@ -185,10 +225,11 @@ html {
 }
 
 body {
-    background: linear-gradient(180deg, rgba(223,127,217,1) 10%, rgba(68,189,232,1) 90%);
+    background: linear-gradient(180deg, rgb(30, 30, 30) 10%, rgb(75, 75, 75) 90%);
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 9vh;
+    width: 100vw;
     text-align: center;
 }
 
@@ -254,7 +295,7 @@ body {
     }
 
     .link:hover {
-        color: #FF4DFF;
+        color: #ea0000;
         background-color: #ddd;
     }
 
@@ -270,5 +311,17 @@ body {
 
     .sarpa-logo-toggled:hover {
         background-color: #000000;
+    }
+
+    .main-header {
+        font-size: 14vw;
+    }
+
+    .alt2-header {
+        font-size: 3vh;
+    }
+
+    .general-info {
+        font-size: 5vw;
     }
 }

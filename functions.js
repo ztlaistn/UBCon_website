@@ -1,3 +1,5 @@
+let pageDir = ["home", "artists-vendors", "about-us"];
+
 function toggleMenu() {
   let menu = document.getElementById("menu");
   let logo = document.getElementById("menu-button");
@@ -15,7 +17,7 @@ function toggleMenu() {
 
 function togglePage(id) {
     toggleMenu();
-    let pages = ["home", "about-us"]
+    let pages = pageDir;
     for(let i=0; i<pages.length; i++){
         if(pages[i] != id){
             let page = document.getElementById(pages[i]);
@@ -28,7 +30,7 @@ function togglePage(id) {
 }
 
 function firstLoad(id) {
-    let pages = ["home", "about-us"]
+    let pages = pageDir;
     for(let i=0; i<pages.length; i++){
         if(pages[i] != id){
             let page = document.getElementById(pages[i]);
