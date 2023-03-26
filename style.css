@@ -201,10 +201,11 @@ html {
 }
 
 .main-link:hover {
-    text-shadow: 5px 5px 10px rgb(252, 8, 8),
-    -5px 5px 10px rgb(252, 8, 8),
-    -5px -5px 10px rgb(252, 8, 8),
-    5px -5px 10px rgb(252, 8, 8);
+    color: #fc0808;
+    text-shadow: 5px 5px 10px rgb(255, 255, 255),
+    -5px 5px 10px rgb(255, 255, 255),
+    -5px -5px 10px rgb(255, 255, 255),
+    5px -5px 10px rgb(255, 255, 255);
 }
 
 .artists-vendors {
