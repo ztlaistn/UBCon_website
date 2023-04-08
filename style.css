@@ -1,7 +1,14 @@
 html {
     background: rgb(75, 75, 75);
-    overflow: auto;
+    overflow: hidden;
     scroll-behavior: smooth;
+}
+
+.page-content {
+    position: relative;
+    z-index: 50;
+    height: 91vh;
+    overflow-y: scroll !important;
 }
 
 .sarpa-logo {
@@ -36,9 +43,15 @@ html {
 }
 
 .sarpa-logo-main {
-    height: 30vh;
+    width: 100vw;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transition-duration: 0.4s;
+    position: absolute;
+    left: -30vw;
+    top: -7vw;
+    z-index: 1;
+    overflow: hidden !important;
+    opacity: 50%;
 }
 
 .facebook-logo {
@@ -78,10 +91,11 @@ html {
 }
 
 .navigation-help {
-    position: absolute;
+    position: absolute !important;
     width: 15vw;
     top: 10vh;
     left: 1vw;
+    z-index: 2;
 }
 
 .navigation-help-mobile {
@@ -152,51 +166,51 @@ html {
 }
 
 .alt-header {
-    text-decoration: none;
-    font-family: 'New Rocker', cursive;
+    font-family: 'Permanent Marker', cursive;
     font-style: normal;
-    font-weight: bold;
-    font-size: 6vh;
+    font-weight: normal;
+    font-size: 12vh;
     line-height: 100%;
-    color: #9e2bf9;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    text-shadow: -2px 7px 0px rgb(39 255 93), 0px -7px 0px rgb(39 255 93), -7px 0px 0px rgb(39 255 93), 7px 6px 0px rgb(39 255 93);
+    -webkit-text-stroke: 6px #9e2bf9;
     transition-duration: 0.4s;
 }
 
 .alt2-header {
-    font-family: 'New Rocker', cursive;
-    font-style: normal;
-    font-weight: bold;
+    font-family: 'Luckiest Guy', cursive;
+    font-style: italic;
+    font-weight: normal;
     font-size: 6vh;
     line-height: 100%;
-    color: #ffffff;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #000000;
+    text-shadow: -4px 3px 0px rgb(255 255 255 / 100%);
+    -webkit-text-stroke: 1px white;
     transition-duration: 0.4s;
 }
 
 .main-header {
-    font-family: 'New Rocker', cursive;
+    font-family: 'Permanent Marker', cursive;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 12vh;
     line-height: 100%;
-    color: #9e2bf9;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    text-shadow: -2px 7px 0px rgb(39 255 93), 0px -7px 0px rgb(39 255 93), -7px 0px 0px rgb(39 255 93), 7px 6px 0px rgb(39 255 93);
+    -webkit-text-stroke: 6px #9e2bf9;
     transition-duration: 0.4s;
 }
 
 .main-link {
-    font-family: Quantico;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 6vh;
-    line-height: 75%;
-    color: #FFFFFF;
-    text-shadow: 5px 5px 10px rgb(158 43 249),
-    -5px 5px 10px rgb(158 43 249),
-    -5px -5px 10px rgb(158 43 249),
-    5px -5px 10px rgb(158 43 249);
     text-decoration: none;
+    font-family: 'Luckiest Guy', cursive;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 6vh;
+    line-height: 100%;
+    color: #9e2bf9;
+    text-shadow: -4px 3px 0px rgb(255 255 255 / 100%), 5px 5px 10px rgb(158 43 249), -5px 5px 10px rgb(158 43 249), -5px -5px 10px rgb(158 43 249), 5px -5px 10px rgb(158 43 249);
+    -webkit-text-stroke: 1px white;
     transition-duration: 0.4s;
 }
 
@@ -231,6 +245,7 @@ body {
     margin-right: 0px;
     margin-top: 9vh;
     text-align: center;
+    overflow: auto !important;
 }
 
 @media only screen and (max-width: 700px) {
@@ -251,6 +266,7 @@ body {
         width: 30vw;
         top: 10vh;
         left: 1vw;
+        z-index: 25;
     }
 
     .navigation-help {
@@ -314,7 +330,7 @@ body {
     }
 
     .main-header {
-        font-size: 14vw;
+        font-size: 24vw;
     }
 
     .alt2-header {
@@ -323,5 +339,27 @@ body {
 
     .general-info {
         font-size: 5vw;
+    }
+
+    .main-link {
+        font-size: 4vh;
+    }
+
+    .alt-header {
+        font-size: 18vw;
+    }
+
+    .sarpa-logo-main{
+        width: 100vw;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        transition-duration: 0.4s;
+        position: absolute;
+        left: -10vw;
+        top: 50%;
+        bottom: 50%;
+        margin: auto;
+        z-index: 1;
+        overflow: hidden !important;
+        opacity: 50%;
     }
 }
