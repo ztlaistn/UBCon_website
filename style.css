@@ -51,7 +51,7 @@ html {
     top: -7vw;
     z-index: 1;
     overflow: hidden !important;
-    opacity: 50%;
+    opacity: 60%;
 }
 
 .facebook-logo {
@@ -360,6 +360,6 @@ body {
         margin: auto;
         z-index: 1;
         overflow: hidden !important;
-        opacity: 50%;
+        opacity: 60%;
     }
 }
