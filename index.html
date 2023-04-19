@@ -21,9 +21,11 @@
     <h1 class="title">UBCON.ORG</h1>
     <div class="hamburger-menu">
         <div class="links" id="menu">
-            <a class="link" onclick="togglePage('home');">Home</a>
+            <a class="link" onclick="togglePage('home'); toggleMenu();">Home</a>
+            <a class="link" onclick="togglePage('tickets'); toggleMenu();">Buy Tickets</a>
+            <a class="link" href="https://docs.google.com/spreadsheets/d/1heFYOpqdzTm4ixdSaGJQ7MAjIzvjHvBJK9I8tk1iQ10/edit?usp=sharing">Event Schedule</a>
             <a class="link" href="https://www.facebook.com/UBCon/">Updates</a>
-            <a class="link" onclick="togglePage('about-us');">About Us</a>
+            <a class="link" onclick="togglePage('about-us'); toggleMenu();">About Us</a>
         </div>
     </div>
     <img src="image/sa_logo.png" alt="UB Student Association" class="sa-logo"/>
@@ -39,15 +41,35 @@
             <br/>
             <br/>
             <br/>
-            <a class="main-link" href="https://forms.gle/uH9q3AUzXyqwGLai8">Student Volunteer Application</a>
+            <a class="main-link" href="https://docs.google.com/spreadsheets/d/1heFYOpqdzTm4ixdSaGJQ7MAjIzvjHvBJK9I8tk1iQ10/edit?usp=sharing">Event Schedule</a>
             <br/>
             <br/>
             <br/>
             <br/>
             <br/>
-            <a class="main-link" href="https://forms.gle/pDu3QZibhp1P1Hm99">Non-Student Volunteer Application</a>
+            <a class="main-link" onclick="togglePage('tickets');">Buy Tickets</a>
         </div>
-
+        <div id="tickets">
+            <h2 class="main-header">Buy Tickets</h2>
+            <h2 class="general-info">All 18+ attendees must provide a valid ID at check-in (UB Students can use UB ID). Your legal name (or name on your UB ID) will be written on the back of the badge, and a preferred name can be written on the front. You can hide your legal name if you don't want people to view it, this is just incase there are any incidents during con, and to make sure people aren't giving 18+ badges to minors. It will not be viewed otherwise, we don't want to deadname anyone.</h2>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <a class="main-link" href="https://buffalo.universitytickets.com/w/event.aspx?id=2695">UB Undergrad Student Ticket</a>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <a class="main-link" href="https://buffalo.universitytickets.com/w/event.aspx?id=2696">Non-Student Ticket</a>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <a class="main-link" href="https://buffalo.universitytickets.com/w/event.aspx?id=2697">Minor+Guardian ticket (this sale is for 1 guardian ticket and X child tickets)</a>
+        </div>
         <div id="about-us">
             <h2 class="alt-header">About Us</h2>
             <img src="image/logo_white.png" alt="SARPA" class="sarpa-logo-large"/>

@@ -1,4 +1,4 @@
-let pageDir = ["home", "about-us"];
+let pageDir = ["home", "tickets", "about-us"];
 
 function toggleMenu() {
   let menu = document.getElementById("menu");
@@ -16,7 +16,6 @@ function toggleMenu() {
 }
 
 function togglePage(id) {
-    toggleMenu();
     let pages = pageDir;
     for(let i=0; i<pages.length; i++){
         if(pages[i] != id){
