@@ -1,4 +1,4 @@
-let pageDir = ["home", "tickets", "about-us"];
+let pageDir = ["home", "tickets", "nerf-war", "about-us"];
 
 function toggleMenu() {
   let menu = document.getElementById("menu");
