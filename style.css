@@ -29,11 +29,11 @@ html {
     position: fixed;
     height: 7vh;
     left: 0px;
-    background-color: #9e2bf9;
+    background-color: #92e3d0;
 }
 
 .sarpa-logo-toggled:hover {
-    background-color: #a841f9;
+    background-color: #92e3d0;
 }
 
 .sarpa-logo-large {
@@ -47,7 +47,7 @@ html {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transition-duration: 0.4s;
     position: absolute;
-    left: -30vw;
+    left: -0vw;
     top: -7vw;
     z-index: 1;
     overflow: hidden !important;
@@ -131,7 +131,7 @@ html {
 }
 
 .link:hover {
-    color: #9e2bf9;
+    color: #8effe7;
     background-color: #ddd;
 }
 
@@ -166,14 +166,14 @@ html {
 }
 
 .alt-header {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Luckiest Guy', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 12vh;
     line-height: 100%;
-    color: #ffffff;
-    text-shadow: -2px 7px 0px rgb(39 255 93), 0px -7px 0px rgb(39 255 93), -7px 0px 0px rgb(39 255 93), 7px 6px 0px rgb(39 255 93);
-    -webkit-text-stroke: 6px #9e2bf9;
+    color: rgba(0, 0, 0, 0.74);
+    text-shadow: -4px 3px 0px rgb(255 255 255 / 100%), 5px 5px 10px rgb(142, 255, 231), -5px 5px 10px rgb(142, 255, 231), -5px -5px 10px rgb(142, 255, 231), 5px -5px 10px rgb(158 43 249);
+    -webkit-text-stroke: 1px white;
     transition-duration: 0.4s;
 }
 
@@ -183,21 +183,21 @@ html {
     font-weight: normal;
     font-size: 6vh;
     line-height: 100%;
-    color: #000000;
-    text-shadow: -4px 3px 0px rgb(255 255 255 / 100%);
+    color: rgba(0, 0, 0, 0.74);
+    text-shadow: -4px 3px 0px rgb(255 255 255 / 100%), 5px 5px 10px rgb(142, 255, 231), -5px 5px 10px rgb(142, 255, 231), -5px -5px 10px rgb(142, 255, 231), 5px -5px 10px rgb(158 43 249);
     -webkit-text-stroke: 1px white;
     transition-duration: 0.4s;
 }
 
 .main-header {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Luckiest Guy', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 12vh;
     line-height: 100%;
-    color: #ffffff;
-    text-shadow: -2px 7px 0px rgb(39 255 93), 0px -7px 0px rgb(39 255 93), -7px 0px 0px rgb(39 255 93), 7px 6px 0px rgb(39 255 93);
-    -webkit-text-stroke: 6px #9e2bf9;
+    color: rgb(78, 78, 78);
+    text-shadow: -2px 5px 2px rgb(255 255 255 / 70%), 3px -4px 2px rgb(255 255 255 / 70%), -7px 5px 2px rgb(255 255 255 / 70%), 2px 3px 2px rgb(255 255 255 / 70%);
+    -webkit-text-stroke: 3px #8effe7;
     transition-duration: 0.4s;
 }
 
@@ -208,14 +208,14 @@ html {
     font-weight: normal;
     font-size: 6vh;
     line-height: 100%;
-    color: #9e2bf9;
-    text-shadow: -4px 3px 0px rgb(255 255 255 / 100%), 5px 5px 10px rgb(158 43 249), -5px 5px 10px rgb(158 43 249), -5px -5px 10px rgb(158 43 249), 5px -5px 10px rgb(158 43 249);
+    color: #4e4e4e;
+    text-shadow: -4px 3px 0px rgb(255 255 255 / 100%), 5px 5px 10px rgb(142, 255, 231), -5px 5px 10px rgb(142, 255, 231), -5px -5px 10px rgb(142, 255, 231), 5px -5px 10px rgb(158 43 249);
     -webkit-text-stroke: 1px white;
     transition-duration: 0.4s;
 }
 
 .main-link:hover {
-    color: #9e2bf9;
+    color: #92e3d0;
     text-shadow: 5px 5px 10px rgb(255, 255, 255),
     -5px 5px 10px rgb(255, 255, 255),
     -5px -5px 10px rgb(255, 255, 255),
@@ -311,7 +311,7 @@ body {
     }
 
     .link:hover {
-        color: #9e2bf9;
+        color: #8effe7;
         background-color: #ddd;
     }
 
