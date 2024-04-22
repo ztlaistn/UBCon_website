@@ -368,3 +368,35 @@ body {
         opacity: 60%;
     }
 }
+
+@media all and (max-width:600px) {
+    ul.flex-nav {
+        flex-wrap: wrap;
+    }
+
+    .flex-nav li {
+        flex: 1 1 50%;
+    }
+}
+
+@media all and (max-width:400px) {
+    .flex-nav li {
+        flex-basis: 100%;
+    }
+}
+
+@media all and (max-width:600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .container {
+        flex: 1 1 50%;
+    }
+}
+
+@media all and (max-width:400px) {
+    .container {
+        flex-basis: 100%;
+    }
+}
