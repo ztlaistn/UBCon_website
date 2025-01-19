@@ -42,6 +42,18 @@ html {
     transition-duration: 0.4s;
 }
 
+.columns {
+    width: 100vw;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition-duration: 0.4s;
+    position: absolute;
+    left: 0vw;
+    top: -7vw;
+    z-index: 1;
+    overflow: hidden !important;
+    opacity: 60%;
+}
+
 .sarpa-logo-main {
     width: 75vw;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -73,7 +85,7 @@ html {
 .title {
     position: fixed;
     width: fit-content;
-    text-align: left;
+    text-align: center;
     margin-top: 2.5vh;
     margin-left: 10vh;
     margin-right: auto;
@@ -166,64 +178,64 @@ html {
 }
 
 .alt-header {
-    font-family: 'Copperplate Gothic Light', cursive;
+    font-family: 'Luminari', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 12vh;
     line-height: 100%;
-    color: rgb(189, 46, 46);
-    text-shadow: -4px 3px 0px rgb(255 255 255 / 100%), 5px 5px 10px rgb(255, 255, 255), -5px 5px 10px rgb(255, 255, 255), -5px -5px 10px rgb(255, 255, 255), 5px -5px 10px rgb(158 43 249);
-    -webkit-text-stroke: 1px #000000;
+    color: rgb(251, 184, 42);
+    text-shadow: -4px 3px 0px rgb(51, 207, 255), 5px 5px 10px rgb(51, 207, 255), -5px 5px 10px rgb(51, 207, 255), -5px -5px 10px rgb(51, 207, 255), 5px -5px 10px rgb(158 43 249);
+    -webkit-text-stroke: 1px #cd9926;
     transition-duration: 0.4s;
 }
 
 .alt2-header {
-    font-family: 'Copperplate Gothic Light', cursive;
+    font-family: 'Luminari', cursive;
     font-style: italic;
     font-weight: normal;
     font-size: 6vh;
     line-height: 100%;
-    color: rgb(189, 46, 46);
-    text-shadow: -4px 3px 0px rgb(255 255 255 / 100%), 5px 5px 10px rgba(255, 255, 255, 0.7), -5px 5px 10px rgb(255, 255, 255), -5px -5px 10px rgba(255, 255, 255, 0.7), 5px -5px 10px rgb(158 43 249);
-    -webkit-text-stroke: 1px #000000;
+    color: rgb(251, 184, 42);
+    text-shadow: -4px 3px 0px rgb(51, 207, 255), 5px 5px 10px rgb(51, 207, 255), -5px 5px 10px rgb(51, 207, 255), -5px -5px 10px rgb(51, 207, 255), 5px -5px 10px rgb(158 43 249);
+    -webkit-text-stroke: 1px #cd9926;
     transition-duration: 0.4s;
-    text-align: left;
-    text-indent: 100px;
+    text-align: center;
+    text-indent: 0px;
 }
 
 .main-header {
-    font-family: 'Copperplate Gothic Light', cursive;
+    font-family: 'Luminari', cursive;
     font-style: normal;
     font-weight: normal;
     font-size: 12vh;
     line-height: 100%;
-    color: rgb(189, 46, 46);
-    text-shadow: -2px 5px 2px rgb(255 255 255 / 70%), 3px -4px 2px rgb(255 255 255 / 70%), -7px 5px 2px rgb(255 255 255 / 70%), 2px 3px 2px rgb(255 255 255 / 70%);
-    -webkit-text-stroke: 3px #000000;
+    color: rgb(251, 184, 42);
+    text-shadow: -2px 5px 2px rgb(51, 207, 255), 3px -4px 2px rgb(51, 207, 255), -7px 5px 2px rgb(51, 207, 255), 2px 3px 2px rgb(51, 207, 255);
+    -webkit-text-stroke: 3px #cd9926;
     transition-duration: 0.4s;
-    text-align: left;
-    text-indent: 100px;
+    text-align: center;
+    text-indent: 0px;
 }
 
 .main-link {
     text-decoration: none;
-    font-family: 'Copperplate Gothic Light', cursive;
+    font-family: 'Luminari', cursive;
     font-style: italic;
     font-weight: normal;
     font-size: 4vh;
     line-height: 100%;
-    color: #bd2e2e;
-    text-shadow: -4px 3px 0px rgb(255 255 255 / 100%), 5px 5px 10px rgb(255, 255, 255), -5px 5px 10px rgb(255, 255, 255), -5px -5px 10px rgb(255, 255, 255), 5px -5px 10px rgb(158 43 249);
-    -webkit-text-stroke: 1px black;
+    color: #fbb82a;
+    text-shadow: -2px 3px 0px rgb(51, 207, 255), 5px 5px 10px rgb(51, 207, 255), -5px 5px 10px rgb(51, 207, 255), -5px -5px 10px rgb(51, 207, 255), 5px -5px 10px rgb(158 43 249);
+    -webkit-text-stroke: 1px #cd9926;
     transition-duration: 0.4s;
     text-indent: 100px;
 }
 
 .main-link:hover {
-    color: #bd2e2e;
-    text-shadow: 5px 5px 10px rgb(255, 88, 88),
-    -5px 5px 10px rgb(255, 88, 88),
-    -5px -5px 10px rgb(255, 88, 88),
+    color: #ffffff;
+    text-shadow: 5px 5px 10px rgb(255, 255, 255),
+    -5px 5px 10px rgb(255, 255, 255),
+    -5px -5px 10px rgb(255, 255, 255),
     5px -5px 10px rgb(255, 255, 255);
 }
 
@@ -245,7 +257,7 @@ html {
 }
 
 body {
-    background: linear-gradient(180deg, rgb(30, 30, 30) 10%, rgb(75, 75, 75) 90%);
+    background: linear-gradient(180deg, rgb(193, 193, 193) 10%, rgb(165, 165, 165) 90%);
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 9vh;
@@ -316,7 +328,7 @@ body {
     }
 
     .link:hover {
-        color: #bd2e2e;
+        color: #33cfff;
         background-color: #ddd;
     }
 
@@ -354,6 +366,22 @@ body {
         font-size: 18vw;
     }
 
+    /*
+    .columns{
+        max-width: 10vw;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        transition-duration: 0.4s;
+        position: relative;
+        left: 0vw;
+        top: 50%;
+        bottom: 50%;
+        margin: auto;
+        z-index: 1;
+        overflow: hidden !important;
+        opacity: 0;
+    }
+     */
+/*
     .sarpa-logo-main{
         width: 100vw;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -367,6 +395,8 @@ body {
         overflow: hidden !important;
         opacity: 60%;
     }
+
+ */
 }
 
 @media all and (max-width:600px) {
